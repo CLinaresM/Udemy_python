@@ -1,4 +1,4 @@
-import Constantes
+import pythin_parte1.Constantes as Constantes
 print(Constantes.PI)
 
 nombre = "marco"
