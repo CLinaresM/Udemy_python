@@ -7,7 +7,7 @@ match numero:
         print("Dos")
     case 3:
         print("Tres")
-    case 1:
-        print("Uno")    
+    case 4:
+        print("cuatro")    
     case _:
         print("Número no reconocido")

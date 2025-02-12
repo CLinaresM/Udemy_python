@@ -1,7 +1,6 @@
 #Escribir un programa que muestre por pantalla la cadena ¡Hola Mundo!.
-"""
-print("Hola mundo")
-"""
+print("¡Hola mundo!")
+
 #Escribir un programa que almacene la cadena ¡Hola Mundo! en una variable y luego 
 # muestre por pantalla el contenido de la variable.
 
@@ -152,7 +151,7 @@ vendidos=float(input("Cuantas barras de pan se vendieron: "))
 no_dia= vendidos*barra
 nofresca=no_dia*descuento
 total= no_dia-nofresca
-print(f"El valor del pan seri {no_dia}, tiene un descuento de {nofresca}, y el total de la compra seria por {total}")
+print(f"El valor del pan seria {no_dia}, tiene un descuento de {nofresca}, y el total de la compra seria por {total}")
 
 barras = int(input("Introduce el número de barras vendidas que no son frescas: "))
 precio = 3.49 
@@ -161,4 +160,19 @@ coste = barras * precio * (1 - descuento)
 print("El coste de una barra fresca es " + str(precio) + "€")
 print("El descuento sobre una barra no fresca es " + str(descuento * 100) + "%")
 print("El coste final a pagar es " + str(round(coste, 2)) + "€")
+
+
+
+numero_secreto=15
+usuario=int(input("Adivina el numero el cual se encuentra del 1 al 30: "))
+
+if usuario < numero_secreto:
+    print("El numero es mas grande, vuelve a intentarlo")
+elif usuario>numero_secreto:
+    print("el numero es menor, sigue intentando")
+elif usuario > 30:
+    print("Escoge un numero del 1 a 30")
+elif usuario == numero_secreto:
+    print("Ganaste!!!, adicinaste el")
+    
 """

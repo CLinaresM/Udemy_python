@@ -1,7 +1,7 @@
 #****github****
 user: CLinaresM
 pass: M@ur3n2021*
-token: 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
+token: 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
 
 echo "# prueba" >> README.md
 git init
